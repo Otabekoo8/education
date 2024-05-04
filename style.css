@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 25px auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .container {
+  width: 100%;
+  height: auto;
+}
+header .container .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 550px;
+}
+header .container .head .logo {
+  margin-left: 150px;
+}
+header .container .head .logo h1 {
+  font-size: 36px;
+  color: #000000;
+}
+header .container .head .logo h1 span {
+  color: #6c6666;
+}
+header .container .head .logo h1:hover {
+  color: #263238;
+  border-bottom: 2px solid #ebaf89;
+}
+header .container .head .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+  margin-right: 80px;
+}
+header .container .head .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+header .container .head .navbar ul li {
+  list-style: none;
+}
+header .container .head .navbar ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+header .container .head .navbar ul li a:hover {
+  color: rgb(178, 207, 207);
+  border-bottom: 2px solid #000000;
+}
+header .container .head .navbar ul .bto button {
+  width: 150px;
+  height: 40px;
+  background-color: #263238;
+  color: #ffffff;
+  border-radius: 15px;
+  border: none;
+}
+header .container .head .navbar ul .bto button:hover {
+  background-color: #8F95A5;
+  color: #ffffff;
+}
+header .hedroy {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .hedroy .container {
+  width: 100%;
+  height: auto;
+}
+header .hedroy .container .hedroviy_birlashma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+header .hedroy .container .hedroviy_birlashma img {
+  margin-right: 150px;
+}
+header .hedroy .container .hedroviy_birlashma .hedroy_text {
+  padding-left: 150px;
+}
+header .hedroy .container .hedroviy_birlashma .hedroy_text button {
+  width: 238px;
+  height: 60px;
+  background-color: #263238;
+  color: #ffffff;
+  border-radius: 15px;
+}
+header .hedroy .container .hedroviy_birlashma .hedroy_text button:hover {
+  background-color: #8F95A5;
+  color: #ffffff;
+}
+header .hedroy .container .hedroviy_birlashma .hedroy_text .tx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .hedroy .container .hedroviy_birlashma .hedroy_text .tx h1 {
+  font-size: 44px;
+}
+header .hedroy .container .hedroviy_birlashma .hedroy_text .tx p {
+  font-size: 24px;
+}
+header .hedroy .container .hedroviy_birlashma .hedroy_text .tx img {
+  width: 85.24px;
+  height: 85.24px;
+}
+header .hedroy .container .hedroviy_birlashma .hedroviy_img img {
+  width: 461px;
+  height: 461px;
+}
+header .Skills {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .Skills .container {
+  width: 100%;
+  height: auto;
+}
+header .Skills .container h1 {
+  text-align: center;
+  color: #000000;
+}
+header .Skills .container .divs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+header .Skills .container .divs .div1 {
+  width: 403px;
+  height: 796px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header .Skills .container .divs .div1 h1 {
+  padding-left: -30px;
+  font-size: 22px;
+  color: #263238;
+}
+header .Skills .container .divs .div1 p {
+  margin-left: 60px;
+  font-size: 14px;
+  color: #8F95A5;
+}
+header .Skills .container .divs .div1 button {
+  width: 196px;
+  height: 57px;
+  border: none;
+  background-color: #263238;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-left: -70px;
+}
+header .Skills .container .divs .div1:hover {
+  background-color: #6c6666;
+}
+header .Skills .container .divs .div1:hover button:hover {
+  background-color: #8F95A5;
+  color: #ffffff;
+}
+header .Skills .container .divs .ikkta_div_bor {
+  flex-direction: column;
+  margin-top: -625px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 610px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div2 {
+  width: 350px;
+  height: 470px;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  margin-left: 50px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div2 img {
+  margin-left: 61px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div2 h1 {
+  font-size: 22px;
+  margin-left: 61px;
+  color: #263238;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div2 p {
+  margin-left: 61px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div2 button {
+  width: 196px;
+  height: 57px;
+  border: none;
+  background-color: #263238;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div2:hover {
+  background-color: #8F95A5;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div2:hover button:hover {
+  background-color: #6c6666;
+  color: #ffffff;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div3 {
+  width: 350px;
+  height: 470px;
+  flex-direction: column;
+  background-color: #F5F5F5;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div3 img {
+  width: 350px;
+  height: 200px;
+  margin-top: -15px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div3 h1 {
+  font-size: 22px;
+  margin-left: 61px;
+  color: #263238;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div3 p {
+  margin-left: 61px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div3 button {
+  width: 196px;
+  height: 57px;
+  border: none;
+  background-color: #263238;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div3 button:hover {
+  background-color: #8F95A5;
+  color: #ffffff;
+}
+header .Skills .container .divs .ikkta_div_bor .ascsmf .div3:hover {
+  background-color: rgb(50, 46, 46);
+  color: #ffffff;
+}
+header .Skills .container .divs .div4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #F5F5F5;
+  margin-left: 50px;
+}
+header .Skills .container .divs .div4 h1 {
+  font-size: 30px;
+  color: #263238;
+  margin-left: 20px;
+}
+header .Skills .container .divs .div4 p {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #8F95A5;
+}
+header .Skills .container .divs .div4 button {
+  margin-left: 20px;
+  width: 186px;
+  height: 56px;
+  border: none;
+  background-color: #263238;
+  color: #ffffff;
+  border-radius: 5px;
+}
+header .Skills .container .divs .div4:hover {
+  background-color: #ebaf89;
+  color: #ffffff;
+}
+header .Skills .container .divs .div4:hover p {
+  color: #ffffff;
+}
+header .Skills .container .divs .div4:hover button:hover {
+  background-color: #8F95A5;
+}
+header .about {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .about .container {
+  width: 100%;
+  height: auto;
+}
+header .about .container .flek {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 310px;
+}
+header .about .container .flek .tesx .sos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .about .container .flek .tesx .sos h1 {
+  font-size: 48px;
+}
+header .about .container .flek .tesx .sos h1 span {
+  font-size: 20px;
+}
+header .pricing {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .pricing .container {
+  width: 100%;
+  height: auto;
+}
+header .pricing .container .df h1 {
+  text-align: center;
+  color: #000000;
+  font-size: 48px;
+}
+header .pricing .container .ddddiiivvss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+header .pricing .container .ddddiiivvss img {
+  width: 211px;
+  height: 211px;
+}
+header .pricing .container .ddddiiivvss button {
+  width: 240px;
+  height: 45px;
+  border: none;
+}
+header .pricing .container .ddddiiivvss button:hover {
+  background-color: #8F95A5;
+  color: #ffffff;
+  border-radius: 15px;
+}
+header .Contact {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .Contact .container {
+  width: 100%;
+  height: 500px;
+}
+header .Contact .container .dhs {
+  width: 1338px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  border-bottom: 1px solid #000000;
+}
+header .Contact .container .dhs .sdcv input {
+  width: 350px;
+  height: 50px;
+  padding-left: 15px;
+}
+header .Contact .container .dhs .sdcv input:hover {
+  background-color: #EEEEEE;
+  color: rgb(239, 176, 94);
+}
+header .Contact .container .dhs .sdcv button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #263238;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+header .Contact .container .dhs .sdcv button:hover {
+  background-color: #EEEEEE;
+  color: rgb(255, 0, 0);
+}
+header .about {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .about .container {
+  width: 100%;
+  height: auto;
+}
+header .about .container .flek {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 310px;
+}
+header .about .container .flek .tesx .sos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .about .container .flek .tesx .sos h1 {
+  font-size: 48px;
+}
+header .about .container .flek .tesx .sos h1 span {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
